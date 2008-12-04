@@ -1,6 +1,6 @@
 h1. JSONCrossdomainRequest
 
-Do crossdomain json requests in javascript without hassles. 
+Do crossdomain json requests in javascript without hassles. Works with a flash proxy object. This object parses the JSON for you, so there will be no character encoding problems when sending the data to javascript.
 
 * "JSONCrossdomainRequest installation":#INSTALLATION
 * "JSONCrossdomainRequest usage":#USAGE
