@@ -1,4 +1,5 @@
 h1. JSONCrossdomainRequest
+
 Do crossdomain json requests in javascript without hassles. 
 
 * "JSONCrossdomainRequest installation":#INSTALLATION
@@ -9,6 +10,7 @@ Do crossdomain json requests in javascript without hassles.
 
 <a id="INSTALLATION"/> </a>
 h2. Installation
+
 Download the files and place them somewhere:
 * JSONCrossdomainRequest.swf
 * JSONCrossdomainRequest.js
@@ -20,16 +22,19 @@ h2. Usage
 
 
 # Include the javascript in your file:
+
 <pre><code>
 	<script src="swfobject.js" type="text/javascript"></script>
 	<script src="JSONCrossdomainRequest.js" type="text/javascript"></script>
 </code></pre>
 
 # Set location of SWF if it is not in your root
+
 JSONCrossdomainRequest.fSwfLocation = '/otherlocation/JSONCrossdomainRequest.swf'
 
 
 # Init the JSONCrossdomainRequest object
+
 <pre><code>
 	window.onload = function() {
 		JSONCrossdomainRequest.init();
